@@ -7,10 +7,10 @@ public class isVowel {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter string");
         String s = input.nextLine();
+        String sLow = s.toLowerCase();
         int counter = 0;
-        for (char ch: s.toCharArray()){
+        for (char ch: sLow.toCharArray()){
             if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
-
                 counter+=1;
             }
         }
