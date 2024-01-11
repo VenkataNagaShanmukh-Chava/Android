@@ -1,4 +1,4 @@
-package collections;
+package collectionslocal;
 
 import java.util.HashMap;
 import java.util.Scanner;
